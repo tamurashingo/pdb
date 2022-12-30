@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdb>
+  <log>
+    <level>INFO</level>
+  </log>
+  <dbg>
+    <port>10001</port>
+    <connector>com.sun.jdi.SocketListen</connector>
+  </dbg>
+  <login>
+    <label>test1</label>
+    <username>scott</username>
+      <password>tiger</password>
+      <dbname>orcl</dbname>
+      <server>127.0.0.1</server>
+      <port>1521</port>
+  </login>
+</pdb>
