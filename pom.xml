@@ -157,6 +157,9 @@
                     com.github.tamurashingo.pdb.Main
                   </mainClass>
                 </manifest>
+                <manifestEntries>
+                  <SplashScreen-Image>images/logo.png</SplashScreen-Image>
+                </manifestEntries>
               </archive>
               <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
