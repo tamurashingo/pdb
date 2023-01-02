@@ -5,7 +5,9 @@ PL/SQL デバッガです。
 
 ## requirement
 
-- JDK 1.8+
+- JDK 1.8
+- Oracle Database
+  - 11g で動作確認済み
 
 ## build
 
