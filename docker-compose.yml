@@ -7,7 +7,6 @@ services:
     shm_size: 1gb
     ports:
       - 1521:1521
-      - 10001:10001
     volumes:
       - db-store:/opt/oracle/oradata
       - ./docker/script/setup:/docker-entrypoint-initdb.d/setup
